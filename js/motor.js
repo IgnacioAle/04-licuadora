@@ -5,10 +5,11 @@ function controlarLicuadora() {
     if (estadoLicuadora == "apagada") {
         estadoLicuadora = "encendida";
         licuadora.classList.add("active")
-        console.log("me prendiste");
+        // console.log("me prendiste");
     } else {
         estadoLicuadora = "apagada"
-        console.log("me apagaste");
+        licuadora.classList.remove("active")
+        // console.log("me apagaste");
     }
 }
 
