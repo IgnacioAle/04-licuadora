@@ -18,6 +18,10 @@
     background-repeat: no-repeat;
 }
 
+.blender.active {
+    background-image: url("../img/licuadoraEncendida.gif");
+}
+
 .blender-button {
     margin: 350px auto 0px;
     width: 70px;

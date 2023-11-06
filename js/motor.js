@@ -3,10 +3,12 @@ var licuadora = document.getElementById("blender");
 
 function controlarLicuadora() {
     if (estadoLicuadora == "apagada") {
-        estadoLicuadora = "encendido";
+        estadoLicuadora = "encendida";
+        licuadora.classList.add("active")
         console.log("me prendiste");
     } else {
         estadoLicuadora = "apagada"
         console.log("me apagaste");
     }
 }
+
